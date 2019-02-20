@@ -15,7 +15,7 @@ public protocol YoCompatible {
 }
 
 public final class YoClassContainer<Base> {
-    let base: Base
+    var base: Base
     public init(_ base: Base) {
         self.base = base
     }

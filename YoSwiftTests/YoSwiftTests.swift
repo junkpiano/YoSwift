@@ -27,7 +27,11 @@ class YoSwiftTests: XCTestCase {
     }
     
     func testArray() {
-        XCTAssertTrue([1,2,3].yo.unique() == [])
+        let names = ["nick", "mike", "brian"]
+        XCTAssertTrue(names.yo.alphabeticalSort() == ["brian", "mike", "nick"])
+
+        let numbers = [1,2,3]
+        XCTAssertTrue(numbers.yo.sum() == 6)
     }
 
     func testPerformanceString() {
@@ -35,7 +39,7 @@ class YoSwiftTests: XCTestCase {
 
         self.measure {
             for _ in 0..<1000 {
-                print("\(number)")
+                "\(number)"
             }
         }
     }
@@ -43,7 +47,7 @@ class YoSwiftTests: XCTestCase {
     func testPerformanceInt() {
         self.measure {
             for _ in 0..<1000 {
-                print(5.yo.to_s())
+                5.yo.to_s()
             }
         }
     }
