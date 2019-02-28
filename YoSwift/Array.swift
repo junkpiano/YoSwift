@@ -8,7 +8,14 @@
 
 import Foundation
 
-extension Array: YoCompatible {}
+extension Array: YoCompatible {
+}
+
+extension YoClassContainer where Base: Sequence {
+    func remove<T: Equatable>(_ obj: T) -> [Base.Element] {
+        return base.filter { $0 as? T != obj}
+    }
+}
 
 extension YoClassContainer where Base == [Int] {
     
@@ -27,5 +34,5 @@ extension YoClassContainer where Base == [String] {
     func alphabeticalSort() -> [String] {
         return base.sorted(by: <)
     }
-    
+
 }

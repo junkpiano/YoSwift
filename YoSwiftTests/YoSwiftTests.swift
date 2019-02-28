@@ -19,6 +19,7 @@ class YoSwiftTests: XCTestCase {
 
     func testExample() {
         XCTAssertTrue(" hello ".yo.trim() == "hello", "Spaces should be trimmed.")
+        XCTAssertTrue(" hello " == " hello ")
         XCTAssertFalse(" hello ".yo.trim() == "hello ", "Spaces should be trimmed.")
     }
     
@@ -32,6 +33,8 @@ class YoSwiftTests: XCTestCase {
 
         let numbers = [1,2,3]
         XCTAssertTrue(numbers.yo.sum() == 6)
+        XCTAssertTrue(numbers.yo.remove(1) == [2,3])
+        XCTAssertTrue(numbers == [1,2,3])
     }
 
     func testPerformanceString() {

@@ -11,7 +11,9 @@ import Foundation
 public protocol YoCompatible {
     associatedtype CompatibleType
     
-    var yo: CompatibleType { get }
+//    var yo: CompatibleType { get }
+    static var yo: YoClassContainer<CompatibleType>.Type { get }
+    var yo: YoClassContainer<CompatibleType> { get }
 }
 
 public final class YoClassContainer<Base> {
@@ -22,7 +24,12 @@ public final class YoClassContainer<Base> {
 }
 
 public extension YoCompatible {
-    public var yo: YoClassContainer<Self> {
+    public static var yo: YoClassContainer<Self>.Type {
+        return YoClassContainer<Self>.self
+    }
+    
+    var yo: YoClassContainer<Self> {
         return YoClassContainer(self)
     }
+    
 }
