@@ -11,15 +11,19 @@ import Foundation
 extension Array: YoCompatible {
 }
 
-extension YoClassContainer where Base: Sequence {
-    func remove<T: Equatable>(_ obj: T) -> [Base.Element] {
+// MARK: Array
+
+public extension YoClassContainer where Base: Sequence {
+    public func remove<T: Equatable>(_ obj: T) -> [Base.Element] {
         return base.filter { $0 as? T != obj}
     }
 }
 
-extension YoClassContainer where Base == [Int] {
+// MARK: Integer Array
+
+public extension YoClassContainer where Base == [Int] {
     
-    func sum() -> Int {
+    public func sum() -> Int {
         var result = 0
         base.forEach { (num) in
             result += num
@@ -29,9 +33,11 @@ extension YoClassContainer where Base == [Int] {
     }
 }
 
-extension YoClassContainer where Base == [String] {
+// MARK: String Array
 
-    func alphabeticalSort() -> [String] {
+public extension YoClassContainer where Base == [String] {
+
+    public func alphabeticalSort() -> [String] {
         return base.sorted(by: <)
     }
 

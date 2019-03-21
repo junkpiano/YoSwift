@@ -11,13 +11,15 @@ import Foundation
 extension UIColor: YoCompatible {
 }
 
-extension YoClassContainer where Base == UIColor {
+// MARK: UIColor
 
-    func rgb(r: Int, g: Int, b: Int, alpha: CGFloat = 1) -> UIColor{
+public extension YoClassContainer where Base == UIColor {
+
+    public func rgb(r: Int, g: Int, b: Int, alpha: CGFloat = 1) -> UIColor{
         return UIColor(red: CGFloat(r) / 255.0, green: CGFloat(g) / 255.0, blue: CGFloat(b) / 255.0, alpha: alpha)
     }
     
-    func hex(_ hex:String) -> UIColor {
+    public func hex(_ hex:String) -> UIColor {
         let cString = hex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()
         
         if ((cString as String).count != 6) {

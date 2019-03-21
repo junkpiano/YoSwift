@@ -11,7 +11,6 @@ import Foundation
 public protocol YoCompatible {
     associatedtype CompatibleType
     
-//    var yo: CompatibleType { get }
     static var yo: YoClassContainer<CompatibleType>.Type { get }
     var yo: YoClassContainer<CompatibleType> { get }
 }

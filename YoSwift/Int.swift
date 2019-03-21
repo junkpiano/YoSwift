@@ -11,13 +11,15 @@ import Foundation
 extension Int: YoCompatible {
 }
 
-extension YoClassContainer where Base == Int {
+// MARK: Int
+
+public extension YoClassContainer where Base == Int {
     
-    func toString() -> String {
+    public func toString() -> String {
         return "\(base)"
     }
     
-    func to_s() -> String {
+    public func to_s() -> String {
         return toString()
     }
     

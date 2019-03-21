@@ -11,9 +11,11 @@ import Foundation
 extension String: YoCompatible {
 }
 
-extension YoClassContainer where Base == String {
+//MARK: String
 
-    func truncate(_ maxLength:Int) -> String {
+public extension YoClassContainer where Base == String {
+
+    public func truncate(_ maxLength:Int) -> String {
         if base.utf8.count > maxLength {
             return String(base.prefix(maxLength))
         } else {
@@ -21,7 +23,7 @@ extension YoClassContainer where Base == String {
         }
     }
     
-    func trim() -> String {
+    public func trim() -> String {
         return base.trimmingCharacters(in: CharacterSet.whitespaces)
     }
 
