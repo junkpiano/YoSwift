@@ -1,0 +1,173 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Array.swift",
+      "line": 17,
+      "symbol": "YoClassContainer.remove(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Array.swift",
+      "line": 26,
+      "symbol": "YoClassContainer.sum()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Array.swift",
+      "line": 40,
+      "symbol": "YoClassContainer.alphabeticalSort()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Int.swift",
+      "line": 18,
+      "symbol": "YoClassContainer.toString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Int.swift",
+      "line": 22,
+      "symbol": "YoClassContainer.to_s()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": null,
+      "symbol": "YoClassContainer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": null,
+      "symbol": "YoClassContainer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": null,
+      "symbol": "YoClassContainer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": null,
+      "symbol": "YoClassContainer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": null,
+      "symbol": "YoClassContainer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": null,
+      "symbol": "YoClassContainer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": null,
+      "symbol": "YoCompatible",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 11,
+      "symbol": "YoCompatible",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 12,
+      "symbol": "YoCompatible.CompatibleType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 14,
+      "symbol": "YoCompatible.yo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 15,
+      "symbol": "YoCompatible.yo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 18,
+      "symbol": "YoClassContainer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 20,
+      "symbol": "YoClassContainer.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 26,
+      "symbol": "YoCompatible.yo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/Protocol.swift",
+      "line": 30,
+      "symbol": "YoCompatible.yo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/String.swift",
+      "line": 18,
+      "symbol": "YoClassContainer.truncate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/String.swift",
+      "line": 26,
+      "symbol": "YoClassContainer.trim()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/UIColor.swift",
+      "line": 18,
+      "symbol": "YoClassContainer.rgb(r:g:b:alpha:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift/YoSwift/UIColor.swift",
+      "line": 22,
+      "symbol": "YoClassContainer.hex(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/yusuke.a.ohashi/src/github.com/junkpiano/YoSwift"
+}
